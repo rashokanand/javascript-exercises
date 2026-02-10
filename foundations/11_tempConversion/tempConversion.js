@@ -1,5 +1,5 @@
 const convertToCelsius = function(tempInF) {
-  return Number.parseFloat(( (tempInF - 32) / 1.8).toFixed(1));
+  return Number.parseFloat(( (tempInF - 32) / 1.8).toFixed(1)); //toFixed returns string, so convert to float again
 };
 
 const convertToFahrenheit = function(tempInC) {
