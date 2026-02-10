@@ -1,6 +1,6 @@
 const leapYears = function(year) {
     if (year % 100 == 0) {
-        return (year % 400 == 0)? true: false;
+        return (year % 400 == 0)? true: false; //if century, leap year must be divisible by 400
     } else 
         return (year % 4 == 0)? true: false;
 };
